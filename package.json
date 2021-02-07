@@ -1,0 +1,21 @@
+{
+  "name": "debug_article",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "lerna run start --parallel",
+    "clean": "rm -rf node_modules && lerna clean --yes && yarn"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

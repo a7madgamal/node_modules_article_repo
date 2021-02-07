@@ -1,0 +1,16 @@
+{
+  "name": "another-package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.21.2",
+    "webpack-dev-server": "^3.7.1",
+    "webpack-cli": "^3.3.12"
+  }
+}
